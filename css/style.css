@@ -3,6 +3,11 @@
 @import "footer.css";
 @import "main.css";
 
+:root {
+  --btn-primary: orange;
+  --btn-hover: burlywood;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
     "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
@@ -11,7 +16,7 @@ body {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -23,8 +28,8 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1500px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }

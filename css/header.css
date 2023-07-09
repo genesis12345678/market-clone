@@ -47,6 +47,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+.menu-bar__location-icon:hover {
+  cursor: pointer;
+}
 
 .menu-bar__icon {
   display: flex;
@@ -56,4 +59,7 @@ header {
 .menu-bar__icon img {
   width: 30px;
   margin-right: 10px;
+}
+.menu-bar__icon img:hover {
+  cursor: pointer;
 }
